@@ -65,10 +65,7 @@ button {
   
 }
 
-.itle_inicio {
 
-  font-size: 50px;
-}
 /*reutilisabes*/
 .section {
   padding: 4.5rem 0 2rem;
@@ -525,6 +522,10 @@ button {
     border-radius: 0.5rem;
     font-weight: 500;
     transition: .3s;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
 }
 
 .newslin::placeholder {
